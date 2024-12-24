@@ -3,14 +3,14 @@
     src:url(../fuente/Playful\ Christmas-Personal\ Use.otf);
 }
 h1{
-    margin-top: auto;
+    margin-top: 0;
+    margin-bottom: 50px;
     text-align: center;
     font-family: "fuente_navideña";
     -webkit-text-stroke:black 0.1px;
     font-size: 200px;
     color: #fc5956;
     text-shadow:10px #fa9090;
-    
 }
 #muerdago1{
     transform: rotate(-50deg);
