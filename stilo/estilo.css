@@ -35,11 +35,6 @@ body{
     position: absolute;
     right: 0;
 }
-@media(max-width: 1340px){
-    .invertir{
-        display: none;
-    }
-}
 p{
     text-align: center;
     font-family: "fuente_navideña";
@@ -60,4 +55,76 @@ p{
 }
 footer{
     margin-top: -20px;
+}
+
+@media(max-width: 1340px){
+    h1{
+        font-size: 80px;
+    }
+    #muerdago1 {
+        height: 120px;
+        width: auto;
+    }
+    #muerdago2 {
+        height: 120px;
+        width: auto;
+    }
+    p {
+        font-size: 40px;
+        width: 250px;
+    }
+    .invertir{
+        left: -12%;
+        height: 700px;
+    }
+    #chica{
+        right: -12%;
+        height: 700px;
+    }
+}
+
+@media(max-width: 830px){
+    h1{
+        font-size: 40px;
+    }
+    #muerdago1 {
+        height: 80px;
+        width: auto;
+    }
+    #muerdago2 {
+        height: 80px;
+        width: auto;
+    }
+    .invertir{
+        position: relative;
+        height: 600px;
+    }
+    #chica{
+        right: -12%;
+        height: 600px;
+    }
+}
+
+@media(max-width: 500px){
+    h1{
+        font-size: 35px;
+    }
+    header {
+        display: flex;
+        justify-content: flex-end;
+    }
+    #muerdago1 {
+        height: 50px;
+        width: auto;
+    }
+    #muerdago2 {
+        height: 50px;
+        width: auto;
+    }
+    .invertir{
+        height: 350px;
+    }
+    #chica{
+        height: 350px;
+    }
 }
